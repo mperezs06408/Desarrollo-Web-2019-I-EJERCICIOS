@@ -1,3 +1,32 @@
+/*CSS Siempre va a utilizar una propiedad*/
+/* Tiene un selector y dentro van propiedades y valores*/
+
 h1 {
     color: red;
 }
+#parrafo {
+    color: blue;
+    border-width: 100px;
+     /*Se le asigna el color mediante el ID de la etiqueta en el código HTML*/
+    text-decoration: underline; /*Esta etiqueta permite subrayar el texto*/
+}
+#parrafoDOS { /*Identificador del segundo párrafo*/
+    margin: 100px; /*Colocar margenes a los párrafos
+    Se coloca la medida en Pixeles*/
+    background-color: #f00;
+    color: yellow;
+    border-color: black;
+    border-width: 50px;
+}
+img {
+    width:50px;
+    height:50px;
+}
+#parrafoTRES {
+    background-width: 50px;
+    background-height: 50px;
+    background-image:url("http://www.escuelaacordes.com/sites/default/files/portfolio/Bateria.jpg");
+
+
+}
+
