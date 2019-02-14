@@ -4,11 +4,14 @@
 h1 {
     color: red;
 }
+.asd {
+    color:blue;
+}
 #parrafo {
     color: blue;
     border-width: 100px;
      /*Se le asigna el color mediante el ID de la etiqueta en el código HTML*/
-    text-decoration: underline; /*Esta etiqueta permite subrayar el texto*/
+    text-decoration: /*Esta etiqueta permite subrayar el texto*/
 }
 #parrafoDOS { /*Identificador del segundo párrafo*/
     margin: 100px; /*Colocar margenes a los párrafos
@@ -17,16 +20,22 @@ h1 {
     color: yellow;
     border-color: black;
     border-width: 50px;
-}
-img {
-    width:50px;
-    height:50px;
-}
-#parrafoTRES {
-    background-width: 50px;
-    background-height: 50px;
-    background-image:url("http://www.escuelaacordes.com/sites/default/files/portfolio/Bateria.jpg");
-
-
+    font-family: libre barcode 39 text;
 }
 
+#parrafoTRES{
+    margin:100px;
+    border-style: solid;
+    border-width: 100px;
+    border-color: red;
+}
+
+.open {
+    margin: 100px;
+    background-image: url(../CSS-Images/Bateria.jpg);
+}
+
+.fooFighters {
+    width:500px;
+    margin: 100px;
+}
