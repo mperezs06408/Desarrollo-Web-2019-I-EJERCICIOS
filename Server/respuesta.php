@@ -5,6 +5,10 @@
     <title>Document</title>
 </head>
 <body>
-    <?php echo "Datos enviados" ?>
+    <?php
+    echo $_GET['usser'];
+    echo '<br>';
+    echo $GET['pass']
+    ?>
 </body>
 </html>
