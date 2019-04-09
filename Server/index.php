@@ -6,10 +6,7 @@
 </head>
 <body>
  <!--
- <?php
-    $usuarios = [['mperez','1234']]
 
-    ?>
     -->
   <h1>Formulario:</h1>
   <h1> <?php echo 'Página en php' ?></h1>

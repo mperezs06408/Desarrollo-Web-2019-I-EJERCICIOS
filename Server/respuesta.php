@@ -6,9 +6,21 @@
 </head>
 <body>
     <?php
-    echo $_GET['usser'];
-    echo '<br>';
-    echo $_GET['pass'];
+    $pass = [
+        'santiago' => '1234',
+        'daniel' => '1928374',
+    ];
+
+    if ($_GET['usser'] in $pass) {
+        if ($pass[$_GET['usser']]== $_GET['pass']){
+            echo 'Datos correctos';
+        } else {
+            echo 'Contraseña incorrecta';
+        }
+    } else {
+        echo 'datos incorrectos';
+    }
+
     ?>
 </body>
 </html>
