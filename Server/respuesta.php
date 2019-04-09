@@ -11,7 +11,7 @@
         'daniel' => '1928374',
     ];
 
-    if ($_GET['usser'] in $pass) {
+    if (isset($pass[$_GET['usser']])) {
         if ($pass[$_GET['usser']]== $_GET['pass']){
             echo 'Datos correctos';
         } else {
