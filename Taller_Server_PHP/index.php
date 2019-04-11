@@ -5,7 +5,7 @@
     <title>Inicio de sesión</title>
 </head>
 <body>
-    <h1>Inicio de sesión</h1>
+    <h1><center>Inicio de sesión</center></h1>
     <div>
         <form action="server.php" method="post">
             <input type="text" name="user" id="user" placeholder="USUARIO">
