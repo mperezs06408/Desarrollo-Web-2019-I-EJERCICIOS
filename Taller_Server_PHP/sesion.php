@@ -25,10 +25,21 @@
 
             echo "<h3>Lista ascendente:</h3>";
 
+            print_r($ascendente);
 
-            for ($i = 0; $i < count($users); $i++){
-                print_r($users);
-            }
+            echo '<br>'
+
+            echo "<h3>Lista descendente:</h3>";
+
+            print_r($descendente);
+
+            echo '<br>'
+
+            echo "<h3>Lista por defecto:</h3>";
+
+            print_r($users);
+
+            echo '<br>'
 
         } else {
             echo 'Contraseña incorrecta';
