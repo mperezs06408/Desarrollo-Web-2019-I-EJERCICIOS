@@ -26,7 +26,7 @@
 
             echo "<ul>"
             for ($i = 0; $i < sizeOf($users); $i++){
-                echo "<li> $ascendente[$i]";
+                echo "<li> $ascendente[$i]</li>";
             }
             echo "</ul>"
         } else {
