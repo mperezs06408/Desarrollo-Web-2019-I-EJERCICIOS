@@ -16,7 +16,7 @@
     if (isset($users[$_POST['user']])){
         if ($users[$_POST['user']]== $_POST['password']){
             session_start();
-            echo $users[0];
+            echo $users;
             $ascendente = asort($users);
             $descendente = arsort($users);
 
