@@ -27,19 +27,18 @@
 
             print_r($ascendente);
 
-            echo '<br>'
+
 
             echo "<h3>Lista descendente:</h3>";
 
             print_r($descendente);
 
-            echo '<br>'
+
 
             echo "<h3>Lista por defecto:</h3>";
 
             print_r($users);
 
-            echo '<br>'
 
         } else {
             echo 'Contraseña incorrecta';
