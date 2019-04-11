@@ -25,7 +25,7 @@
             echo "<h3>Lista ascendente:</h3>";
 
             echo "<ul>"
-            for ($i = 0; $i < sizeOf($users); $i++){
+            for ($i = 0; $i < count($users); $i++){
                 echo "<li> $ascendente[$i]</li>";
             }
             echo "</ul>"
