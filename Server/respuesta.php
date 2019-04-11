@@ -5,7 +5,7 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
+   <?php
     $pass = [
         'santiago' => '1234',
         'daniel' => '1928374',
@@ -13,7 +13,9 @@
 
     if (isset($pass[$_GET['usser']])) {
         if ($pass[$_GET['usser']]== $_GET['pass']){
-            echo 'Datos correctos';
+            session_start();
+
+            echo "Sesión iniciada";
         } else {
             echo 'Contraseña incorrecta';
         }
@@ -22,5 +24,8 @@
     }
 
     ?>
+
+
+
 </body>
 </html>
