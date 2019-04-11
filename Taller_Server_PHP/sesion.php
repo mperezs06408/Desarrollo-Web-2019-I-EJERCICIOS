@@ -33,10 +33,10 @@
             print_r($users);
 
 
-
+            asort($users);
             echo "<h3>Lista descendente:</h3>";
 
-            print_r($descendente);
+            print_r($users);
 
         } else {
             echo 'Contraseña incorrecta';
