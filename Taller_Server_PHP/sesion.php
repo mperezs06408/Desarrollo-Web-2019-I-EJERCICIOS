@@ -33,7 +33,7 @@
             print_r($users);
 
 
-            asort($users);
+            arsort($users);
             echo "<h3>Lista descendente:</h3>";
 
             print_r($users);
