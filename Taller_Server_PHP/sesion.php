@@ -26,7 +26,7 @@
 
 
             for ($i = 0; $i < count($users); $i++){
-                print '$users[$i]';
+                print $users[0];
             }
 
         } else {
