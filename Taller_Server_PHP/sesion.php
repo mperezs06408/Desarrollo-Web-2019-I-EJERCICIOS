@@ -26,7 +26,7 @@
 
 
             for ($i = 0; $i < count($users); $i++){
-                echo 'name' + $users[$i];
+                print $ascendente;
             }
 
         } else {
