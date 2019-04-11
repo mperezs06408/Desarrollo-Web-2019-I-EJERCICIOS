@@ -17,19 +17,26 @@
         if ($users[$_POST['user']]== $_POST['password']){
             session_start();
             echo $users;
-            $ascendente = asort($users);
-            $descendente = arsort($users);
+
 
 
             echo "<h2><center>Listados de usuarios activos</center></h2>";
 
+            echo "<h3>Lista por defecto:</h3>";
+
+            print_r($users);
+
+
+            sort($users);
             echo "<h3>Lista ascendente:</h3>";
 
-            foreach($user as $key => $val) {
-                echo "$key = $val\n";
-            }
+            print_r($users);
 
 
+
+            echo "<h3>Lista descendente:</h3>";
+
+            print_r($descendente);
 
         } else {
             echo 'Contraseña incorrecta';
