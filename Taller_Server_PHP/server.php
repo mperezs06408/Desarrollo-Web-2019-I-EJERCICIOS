@@ -4,14 +4,15 @@
         'natalia' => '9876',
     ];
     
-    if (isset($users[$_GET['user']])){
-        if ($users[$_GET['user']]== $_GET['password']){
+    if (isset($users[$_POST['user']])){
+        if ($users[$_POST['user']]== $_POST['password']){
             session_start();
             echo 'sesiòn iniciada';
             
         } else {
-            header('location:index.php');
             echo 'Contraseña incorrecta';
+            header('location:index.php');
+
         }
     } else {
         header('location:index.php');
