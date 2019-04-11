@@ -16,8 +16,8 @@
         if ($users[$_POST['user']]== $_POST['password']){
             session_start();
 
-            $ascendente = $users.asort();
-            $descendente = $users.arsort();
+            $ascendente = asort($users);
+            $descendente = arsort($users);
             echo 'alert("Sesión iniciada")';
 
             echo "<h2><center>Listados de usuarios activos</center></h2>";
