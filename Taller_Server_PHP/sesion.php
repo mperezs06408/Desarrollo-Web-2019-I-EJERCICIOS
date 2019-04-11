@@ -27,7 +27,7 @@
 
 
             for ($i = 0; $i < count($users); $i++){
-                print_r($users[$i]);
+                print_r($users);
             }
 
         } else {
