@@ -25,19 +25,10 @@
 
             echo "<h3>Lista ascendente:</h3>";
 
-            print_r($ascendente);
+            foreach($user as $key => $val) {
+                echo "$key = $val\n";
+            }
 
-
-
-            echo "<h3>Lista descendente:</h3>";
-
-            print_r($descendente);
-
-
-
-            echo "<h3>Lista por defecto:</h3>";
-
-            print_r($users);
 
 
         } else {
