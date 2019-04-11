@@ -16,8 +16,6 @@
     if (isset($users[$_POST['user']])){
         if ($users[$_POST['user']]== $_POST['password']){
             session_start();
-            echo $users;
-
 
 
             echo "<h2><center>Listados de usuarios activos</center></h2>";
