@@ -26,7 +26,7 @@
 
 
             for ($i = 0; $i < count($users); $i++){
-                print $ascendente;
+                print $users;
             }
 
         } else {
