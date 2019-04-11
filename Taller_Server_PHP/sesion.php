@@ -18,7 +18,7 @@
 
             $ascendente = asort($users);
             $descendente = arsort($users);
-            echo 'alert("Sesión iniciada")';
+
 
             echo "<h2><center>Listados de usuarios activos</center></h2>";
 
@@ -26,16 +26,16 @@
 
 
             for ($i = 0; $i < count($users); $i++){
-                echo $ascendente[$i];
+                echo '$ascendente[$i]';
             }
 
         } else {
-            echo 'alert("Contraseña incorrecta")';
+            echo 'Contraseña incorrecta';
             header('location:index.php');
 
         }
     } else {
-        echo 'alert("Datos incorrectos")';
+        echo 'Datos incorrectos';
         header('location:index.php');
     }
 ?>
